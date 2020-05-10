@@ -8,7 +8,7 @@ int main(){
     int N;
     while(T>0){
        cin>>N;
-       cout<<sqrt(N);
+       cout<<static_cast<int>(sqrt(N))<<"\n";
 
         T--;
     }
